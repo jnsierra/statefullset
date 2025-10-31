@@ -1,0 +1,7 @@
+replicaCount: 3
+
+mongodb:
+  auth:
+    rootPassword: "miPassword123"
+    username: "admin"
+    database: "mydb"

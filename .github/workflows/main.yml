@@ -29,5 +29,5 @@ jobs:
           openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
       - name: Deploy files
         run: |
-          helm upgrade --install my-mongodb oci://registry-1.docker.io/cloudpirates/mongodb f values.yaml
+          helm upgrade --install my-mongodb oci://registry-1.docker.io/cloudpirates/mongodb -f values.yaml
     
